@@ -1,6 +1,8 @@
 *{
-    box-sizing: border-box;
-    margin: 30;
+   -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+           box-sizing: border-box;
+    margin: 0;
     padding: 0;
 }
 /*  Style.css do body  */
@@ -161,7 +163,7 @@ header{
     grid-gap: 20px;
     margin-bottom: 40px;
     text-align: center;
-   
+
 }
 .partes p{
     color: black;
@@ -338,12 +340,12 @@ footer div{
     }
 }
 .toggle .line1{
-    transform: rotate(-45deg) translate(-5px, 6px);
+    transform: rotate(-45deg) translate(-5px,6px);
 }
 .toggle .line2{
     opacity: 0;
 }
 .toggle .line3{
-    transform: rotate(-45deg) translate(-5px, -6px);
+    transform: rotate(45deg) translate(-5px, -6px);
 }
 
